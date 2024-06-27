@@ -1,0 +1,17 @@
+#include "main.h"
+
+char *leet(char *leet1)
+{
+	leet1[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l','L'};
+
+	int i;
+
+	for (i = 0; leet1[i]!= '\0'; i++)
+	{
+		if(leet1[i] == 'a' || leet1[i] == 'A')
+		{
+			leet1[i] = 4;
+		}
+	}
+	return leet1;
+}
